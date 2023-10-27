@@ -3,7 +3,7 @@ body {
 }
 
 .content {
-    border: 3px solid azure;
+    border: 3px solid black;
     width: 1024;
     margin: auto;
 }
@@ -50,12 +50,14 @@ body {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(4, 300px);
+    grid-template-columns: repeat(3, 465px);
+    grid-template-rows: repeat(4, 500px);
     gap: 10px;
     place-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .gallery-item {

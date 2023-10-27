@@ -12,7 +12,7 @@
         }
         
         function setImage(){
-            document.getElementById("profileimage").style.backgroundImage = "url(" + document.getElementById("image_url").value + ")"
+            document.getElementById("proImage").style.backgroundImage = "url(" + document.getElementById("image_url").value + ")"
         }
     </script>
 </head>
@@ -23,7 +23,7 @@
             <div>
                 <div class="flex-item-1">
                     <!-- Avatar -->
-                    <div class="avatar" id="profileimage"></div>
+                    <div class="avatar" id="proImage"></div>
                     <div class="noti">
                         <p>2</p>
                     </div>
@@ -37,20 +37,20 @@
             <div class="flex-item-2">
                 <!-- Input -->
                 <div><label>Username</label><input type="text" style="margin-left: 5px;" id="username"><button style="margin-left: 5px;" onclick="display()">Set</button></div>
-                <div><label>Image URL</label><input type="text" style="margin-left: 5px;" id="image_url"><button style="margin-left: 5px;" onclick="setImage">Set</button></div>
+                <div><label>Image URL</label><input type="text" style="margin-left: 5px;" id="image_url"><button style="margin-left: 5px;" onclick="setImage()">Set</button></div>
             </div>
         </div>
         <div class="gallery">
-            <div class="gallery-item" style="grid-column: span 2 / span 2;"></div>
-            <div class="gallery-item"></div>
-            <div class="gallery-item"></div>
-            <div class="gallery-item"></div>
-            <div class="gallery-item"></div>
-            <div class="gallery-item" style="grid-row: span 2 / span 2;"></div>
-            <div class="gallery-item"></div>
-            <div class="gallery-item"></div>
-            <div class="gallery-item"></div>
-            <div class="gallery-item"></div>
+            <div class="gallery-item" style="grid-column: span 2 / span 2;"><img src="https://th.bing.com/th/id/R.4c3fcc1a990cf5ca9869f221f4314eb5?rik=LXN8XkAQ02CvhA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-i-TGBlFgNFY%2fVN2pEGTnzyI%2fAAAAAAAAEjo%2fui303TAOz-E%2fs1600%2f1370082301-DSC4363-o.jpg&ehk=uqhyQf785wKIWIEHSIZu%2fOOIL7%2baJRWePfxK8x%2bRuy8%3d&risl=&pid=ImgRaw&r=0" class="gallery-item"></div>
+            <div class="gallery-item"><img src="https://cdn.pixabay.com/photo/2017/05/18/17/03/view-2324147_1280.jpg" class="gallery-item"></div>
+            <div class="gallery-item"><img src="https://th.bing.com/th/id/OIP._r6KQjfsblVDHRUdeWTjJwHaFB?pid=ImgDet&rs=1" class="gallery-item"></div>
+            <div class="gallery-item"><img src="https://th.bing.com/th/id/R.48882a5f08eb4d7a8ccf21cd5a63c74d?rik=63acN13zwipWcg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-h9fes2AodEc%2fUh6IMXSrKZI%2fAAAAAAAAARQ%2fPiuX7IPHjuU%2fs1600%2fBlue_Moon_Celestron4SE_canon40D_Brooklyn_Astronomy.gif&ehk=4CUXCOJhvySVcClk8z1egeAO8qWTiJOP2LTEJSqAAaA%3d&risl=&pid=ImgRaw&r=0" class="gallery-item"></div>
+            <div class="gallery-item"><img src="https://www.wallpaperflare.com/static/23/433/94/dark-ocean-sea-water-wallpaper.jpg" class="gallery-item"></div>
+            <div class="gallery-item" style="grid-row: span 2 / span 2;"><img src="https://www.crystalinks.com/sea.jpg" class="gallery-item"></div>
+            <div class="gallery-item"><img src="https://th.bing.com/th/id/OIP.5HeWU-QCFH87DFjQCGTUbQHaE7?pid=ImgDet&rs=1" class="gallery-item"></div>
+            <div class="gallery-item"><img src="https://th.bing.com/th/id/R.e56a2ef89fd2958a8b3d7351e33861c9?rik=Uil%2beCLCMWffpg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-w-v_hr-pDDs%2fUdDsiRx-IKI%2fAAAAAAAAAlM%2flcvNyqpo8aM%2fs1600%2fearth.jpg&ehk=SlbktJcRxr%2fmY81W9wsm0xt%2bKjCOT9bB0NcVx4KqBeY%3d&risl=&pid=ImgRaw&r=0" class="gallery-item"></div>
+            <div class="gallery-item"><img src="https://th.bing.com/th/id/OIP.Wi8v5f6VqV0K0CZoFSZZzQHaE8?pid=ImgDet&rs=1" class="gallery-item"></div>
+            <div class="gallery-item"><img src="https://th.bing.com/th/id/OIP.CRm2eAzrahYumF38ID-9PAHaE5?pid=ImgDet&rs=1" class="gallery-item"></div>
         </div>
     </div>
 </body>
